@@ -182,7 +182,7 @@ const data = tripData?[
       <div>
         <h2 className='flex gap-2 text-3xl text-white left-20 items-center absolute bottom-20'> <ArrowLeft/> Getting to know you to build perfect trip here...</h2>
     <Image src= {'/travel.gif'} alt = 'travel' width={'800'} 
-      height={'800'} className='w-full h-full object-cover rounded-3xl'/>
+      height={'800'} unoptimized className='w-full h-full object-cover rounded-3xl'/>
       
       
       </div>
