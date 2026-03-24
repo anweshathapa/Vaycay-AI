@@ -8,7 +8,7 @@ export const aj = arcjet ({
             mode: "LIVE", //will block request
             characteristics: ["userId"],
             refillRate: 10, //refill 5 tokens per interval
-            interval: 86400,
+            interval: 10, //make it 84600 later
             capacity: 10,
         }),
     ],
